@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-// W3C//DTD XHTML 1.0 Transantional//EN" "http ://www.w3.org/TR/xtml/DTD/ xtm1- transantional.dtd">
+<html><meta lang="bs" http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+ <meta htttp-equiv="KEYWORDS" content="Knjiga, Knjižara, Online Knjiga, Knjižara modernog duha, Kućna dostava knjiga, Online plaćanje, 
+         Programerske knjige, Java, Java Servlet Page, direktiva useBean, C++">
+<!-- Dodavanje favicon slike ispred naslova web stranice na kompjuterskom web pretraživaču -->
+<link rel="SHORTCUT ICON" type="image/png" href="favicon.png"/>
+<title>Prijava kupca</title>
+<style type='text/css'>
+	 .header { background-color:#e8e8e8 }
+	div {  width: 50%; margin-right: auto; margin-left: auto; 
+            color: beige; font: 700 30pt Calibri, Arial, Helvetica, Verdana; background-color:blue; 
+            letter-spacing: 15pt; text-align: center; text-shadow: 1.2px 1.2px black;}
+	h1 {color:beige; font-size:30pt; text-align:center; font-family:Calibri, Arial, Helvetica, Verdana; font-weight:bold; letter-spacing:15pt;}
+	 .menu {color:#343434; font-size:12pt; text-align:center; font-family:Calibri, Arial, Helvetica, Verdana; font-weight:bold} 
+	p {color:#343434; font-size:12pt; text-align:justify; font-family:Calibri, Arial, Helvetica, Verdana; font-weight:bold}
+	a:link {color:lightblue; font-size:11pt; text-align:justify; font-family:Calibri, Arial, Helvetica, Verdana; 
+	        font-weight:700; text-shadow: 1.2px 1.2px white;}, a:visited, a:active {color:blue}
+</style> 
+</head>
+<body bgcolor="#e8e8e8">
+
+<!-- Zaglavlje stranice/Header page-->
+<div id="onlineknjizara" title="Najveća programerska online knjižara">Online programerska knjižara</div> 
+<div style="font-size:10pt; text-align:right; letter-spacing: 4pt;">Dobrodošli!</div>
+
+<div style="font-size:10pt; text-align:right; letter-spacing: 4pt;">
+Molimo<a href="prijava.jsp" title="Prijavite se kao kupac sa postojećim profilom">&nbsp;prijavite se</a>
+ili napravite<a href="registracija.html"  title="Napravi novi profil" >&nbsp;svoj profil!</a></div>
+
+<!-- Sadrzaj stranice za prijavu/Content page -->
+<table width="50%" cellpadding="4" cellspacing="4" border="1" style="margin-right:auto; margin-left:auto; margin-top:10px;">
+<tr>
+<td width= "20%" style="background-color:lightblue"  valign="top">
+<form method="post" action="prijava.jsp" >
+<h3>Prijava </h3>
+Korisnik
+<br></br>
+<input type="text" name="korisnickoime" size="20" placeholder="Vaše korisničko ime!"></input>
+<br></br>
+Lozinka
+<br></br>
+<input type="password" name="lozinka" size="20" placeholder="Vaša lozinka!"></input>
+<p>
+<input type="submit" value="Prijavi se"  title="Prijavite se kao kupac sa postojećim profilom" ></input>
+</p>
+<p>
+<a href="registracija.html"  title="Napravi novi profil" >Ja sam novi korisnik!</a>
+</p>
+</form>
+</td>
+<td  valign="top">
+<h3>Opis</h3>
+<p style="font-weight: 520">
+Ovaj sajt pruža uslugu online naručivanja i kupovine knjiga.
+Sve što treba da uradite jeste da izabranu knjigu dodate u potrošačku korpu i zaključite narudžbu.
+Knjige iz potrošačke korpe biće dostavljene na Vaš kućni prag.
+Knjige plaćate tek kada Vam budu dostavljene.
+</p>
+<p></p>
+<b>Potrebno je da uradite sljedeće ako želite naručiti i kupiti knjigu:</b>
+<ul>
+<li>Prijavite se ako već imate napravljen profil. U suprotnom vi ste novi korisnik i napravite svoj profil. 
+    Pravljenje profila se ne naplaćuje.</li>
+<li>Nađite knjigu i dodajte knjigu u potrošačku korpu.
+    Traženje knjige je svima dozvoljeno ali samo registrovani korisnik može naručiti knjigu.</li>
+<li>Možete dodavati i brisati knjigu, i birati količinu knjige u narudžbi.</li>
+<li>Zaključite narudžbu.</li>
+<li>Platite knjige kada Vam budu dostavljenje.</li> 
+</ul>
+<p></p>
+<center>
+<a href="listaknjiga.jsp"  title="Pokaži cijelu knjižaru ovdje..." >Pokaži katalog knjiga u bazi!</a>
+</center>
+<p></p>
+</td>
+</tr>
+</table>
+</body>
+</html>

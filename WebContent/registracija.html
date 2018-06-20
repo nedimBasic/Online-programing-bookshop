@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-// W3C//DTD XHTML 1.0 Transantional//EN" "http ://www.w3.org/TR/xtml/DTD/ xtm1- transantional.dtd">
+<html><meta lang="bs" http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<head>
+ <meta htttp-equiv="KEYWORDS" content="Knjiga, Knjižara, Online Knjiga, Knjižara modernog duha, Kućna dostava knjiga, Online plaćanje, 
+         Programerske knjige, Java, Java Servlet Page, direktiva useBean, C++">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style>
+h2 {width: 50%; margin: 1.2px; margin-right: auto; margin-left: auto; margin-bottom:10px;
+     color: beige; font: 700 20pt Calibri, Arial, Helvetica, Verdana; background-color:blue; 
+     letter-spacing: 15pt; text-align: center; text-shadow: 1.2px 1.2px black;}
+h4 {width: 50%; margin: 1.2px; margin-right: auto; margin-left: auto;
+     color: beige; font: 700 Calibri, Arial, Helvetica, Verdana; background-color:blue; 
+     letter-spacing: 4pt; text-align: left; text-shadow: 1.2px 1.2px black;}
+table {width:50%; cellpadding:4; cellspacing:4; border:0; margin-right:auto; margin-left:auto;}          
+td {font:12pt Calibri, Arial, Helvetica, Verdana;}
+a { font:12pt 10pt Calibri, Arial, Helvetica, Verdana; color:navy; text-decoration: none;}
+#dugme{align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    color: buttontext;
+    background-color: blue;
+    margin: auto auto auto auto;
+    background: orange;
+    padding: 2px 6px 3px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;}
+</style>
+
+<link rel="SHORTCUT ICON" type="image/png" href="favicon.png"/>
+<title>Kreiraj račun novog kupca</title>
+</head>
+
+<body bgcolor="#e8e8e8">
+
+<!-- Zaglavlje stranice/Header page-->
+<h2 title="Kreiraj račun novog kupca">
+Kreiraj račun
+</h2>
+<hr>
+<form action="registracija.jsp" method="post">
+<h4>&nbsp;Lične informacije</h4>
+<table>
+<tr>
+<td>
+Ime
+</td>
+<td>
+<input type="text" name="imek" size="20" placeholder="Vaše ime!">*
+</td>
+<td>
+Prezime
+</td>
+<td>
+<input type="text" name="prezimek" size="20" placeholder="Vaše Prezime!">*
+</td>
+</tr>
+<tr>
+<td>
+Email Adresa
+<td>
+<input type="text" name="email" size="30" placeholder="Vaša email adresa!">*
+</tr>
+
+<tr>
+<td>Poštanska adresa
+<td>
+<textarea name="adresa" rows="3" cols="30" placeholder="Vaša poštanska adresa!"></textarea>*
+</td>
+</tr>
+<tr>
+<td>
+Telefonski broj
+<td>
+<input type="text"  name="telefon" size=30 placeholder="Vaš telefonski broj!">
+</tr>	
+</table>
+<br></br>
+<h4>&nbsp;Prijavne informacije </h4>
+<table>
+<tr>
+<td>
+Korisnik
+<td>
+<input type="text" name="korisnickoime" size="20" placeholder="Vaše korisničko ime!">*
+</tr>
+<tr>
+<td>
+Lozinka
+<td>
+<input type="password" name="lozinka" size="20" placeholder="Vaša lozinka!">*
+</tr>
+<tr>
+<td>
+Potvrdi lozinku
+<td>
+<input type="password" name="lozinka2" size=20 placeholder="Vaša potvrda lozinke!">*
+</tr>
+</table>
+<hr></hr>
+<p style=" width: 50%; text-align:right; color:brown; margin-right: auto; margin-left: auto;">* Obavezna polja</p>
+<div style="width: 50%; text-align:right; margin-right: auto; margin-left: auto;">
+<input type="reset" id="dugme" value="Obriši sve!">
+<input type="submit"  id="dugme" value="Registruj se!">
+</div>
+<p style="width: 50%; margin: 1.2px; margin-right: auto; margin-left: auto;">
+<a  href="prijava.html">« Nazad</a>
+</p>
+</form>
+</center>
+</body>
+</html>   
